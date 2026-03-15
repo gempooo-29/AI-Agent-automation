@@ -80,14 +80,14 @@ Edit `.env` and add your API keys:
 ```env
 GROQ_API_KEY=your_groq_api_key
 TAVILY_API_KEY=your_tavily_api_key
-OPENWEATHER_API_KEY=your_openweather_api_key
 ```
 
 | Key | Where to get it |
 |-----|----------------|
-| `GROQ_API_KEY` | [console.groq.com](https://console.groq.com) |
-| `TAVILY_API_KEY` | [app.tavily.com](https://app.tavily.com) |
-| `OPENWEATHER_API_KEY` | [openweathermap.org](https://openweathermap.org) |
+| `GROQ_API_KEY` | [console.groq.com](https://console.groq.com) — Free |
+| `TAVILY_API_KEY` | [app.tavily.com](https://app.tavily.com) — Free |
+
+> ✅ No other API keys needed — Weather uses `wttr.in` which is completely free!
 
 ---
 
@@ -140,7 +140,7 @@ Uses **LangChain + ChromaDB + HuggingFace Embeddings** to:
 - Supports PDF, DOCX, and TXT files
 
 ### 🌤 Weather
-Uses **wttr.in** (no API key required) to get real-time weather data for any city.
+Uses **wttr.in** — completely free, no API key required.
 
 ### 🎵 YouTube Search
 Searches YouTube and opens the result directly in your browser.
